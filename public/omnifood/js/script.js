@@ -16,8 +16,8 @@ btnNavEl.addEventListener("click", function (e) {
 
 document.addEventListener("click", function (e) {
   const linkEl = e.target.closest("a");
+  if (!linkEl) return;
   const href = linkEl.getAttribute("href");
-  console.log(href);
   if (!href || !href.startsWith("#")) return;
 
   e.preventDefault();

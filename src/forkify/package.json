@@ -7,7 +7,7 @@
     "prestart": "node generate-secrets.js",
     "start": "parcel index.html",
     "prebuild": "node generate-secrets.js",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html --dist-dir ../../public/forkify"
   },
   "author": "Seth Gilchrist",
   "license": "ISC",

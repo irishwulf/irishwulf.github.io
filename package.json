@@ -1,6 +1,6 @@
 {
   "scripts": {
     "build": "npm run build:forkify",
-    "build:forkify": "cd public/forkify && npm install && npm run build"
+    "build:forkify": "cd src/forkify && npm install && npm run build"
   }
 }

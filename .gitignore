@@ -134,4 +134,5 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-public/forkify/src/js/secrets.js
+
+src/forkify/src/js/secrets.js

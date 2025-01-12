@@ -136,3 +136,5 @@ dist
 .pnp.*
 
 src/forkify/src/js/secrets.js
+public/forkify/*
+!public/forkify/.gitkeep

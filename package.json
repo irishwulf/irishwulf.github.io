@@ -2,5 +2,8 @@
   "scripts": {
     "build": "npm run build:forkify",
     "build:forkify": "cd src/forkify && npm install && npm run build"
+  },
+  "dependencies": {
+    "fraction.js": "^5.2.1"
   }
 }

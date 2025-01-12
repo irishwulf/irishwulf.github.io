@@ -1,4 +1,5 @@
-import { API_URL, API_KEY, RESULTS_PER_PAGE } from './config.js';
+import { API_URL, RESULTS_PER_PAGE } from './config.js';
+import { API_KEY } from './secrets.js';
 import { AJAX } from './helpers.js';
 
 export const state = {
